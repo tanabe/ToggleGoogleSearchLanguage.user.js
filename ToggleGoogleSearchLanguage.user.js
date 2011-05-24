@@ -29,12 +29,12 @@
     if (next === "ja") {
       nextURL = location.href.replace(/google\.com\//, "google.co.jp/").replace(/hl=en/g, "hl=ja");
       if (!nextURL.match(/hl=ja/)) {
-        nextURL =+ "&hl=ja";
+        nextURL += "&hl=ja";
       }
     } else {
       nextURL = location.href.replace(/google\.co\.jp\//, "google.com/").replace(/hl=ja/g, "hl=en");
       if (!nextURL.match(/hl=en/)) {
-        nextURL =+ "&hl=en";
+        nextURL += "&hl=en";
       }
     }
     location.href = nextURL;
