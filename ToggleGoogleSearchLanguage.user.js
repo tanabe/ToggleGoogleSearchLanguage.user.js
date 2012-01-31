@@ -5,6 +5,8 @@
 // @description    Japanese <-> English
 // @include        http://www.google.co.jp/*
 // @include        http://www.google.com/*
+// @include        https://www.google.co.jp/*
+// @include        https://www.google.com/*
 // ==/UserScript==
 (function() {
   document.addEventListener('dblclick', function(e) {
